@@ -8,3 +8,8 @@ function printArr($numbers){
 function largest($numbers){
     return $largestNum = max($numbers);
 }
+
+function removeDups($numbers){
+     $result = array_unique($numbers);
+     return $result;
+}

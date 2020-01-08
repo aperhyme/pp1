@@ -32,6 +32,9 @@
         echo "Removes the duplicates "."<br>";
 
         printArr(removeDups($numbers));
+
+        echo "New Associative Array "."<br>";
+        print_r(distribution($numbers));
     ?>
 
 </body>

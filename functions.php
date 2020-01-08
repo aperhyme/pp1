@@ -13,3 +13,9 @@ function removeDups($numbers){
      $result = array_unique($numbers);
      return $result;
 }
+
+function distribution($numbers){
+    $newArray = array_count_values($numbers);
+    ksort($newArray);
+    return $newArray;
+}

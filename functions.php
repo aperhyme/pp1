@@ -4,3 +4,7 @@ function printArr($numbers){
         echo $number.'<br>';
     }
 }
+
+function largest($numbers){
+    return $largestNum = max($numbers);
+}

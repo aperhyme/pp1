@@ -11,6 +11,7 @@
     ini_set('display_errors',1);
     error_reporting(E_ALL);
 
+    include "functions.php";
 ?>
 
 <!DOCTYPE html>
@@ -24,11 +25,6 @@
 
     <?php
         $numbers = array(7, 9, 8, 9, 8, 8, 6);
-        function printArr($numbers){
-            foreach ($numbers as $number){
-                echo $number.'<br>';
-            }
-        }
         printArr($numbers);
     ?>
 
